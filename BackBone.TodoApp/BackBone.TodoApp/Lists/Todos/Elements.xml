@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <!-- No cambie el valor del siguiente atributo Name. Si no coincide con el nombre de carpeta del elemento de proyecto Lista, se producirá un error al ejecutar el proyecto. -->
+    <ListTemplate
+        Name="Todos"
+        Type="10000"
+        BaseType="0"
+        OnQuickLaunch="TRUE"
+        SecurityBits="11"
+        Sequence="410"
+        DisplayName="Todos"
+        Description="Mi definición de lista"
+        Image="/_layouts/15/images/itgen.png"/>
+</Elements>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Tipo de contenido primario: Elemento (0x01) -->
+  <ContentType ID="0x01000F74FF152F0E4524A4EBB3D23BAC8203" Name="Todo" Group="TODOs content types" Description="Content type for TODOs items" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{35363960-D998-4aad-B7E8-058DFE2C669E}" DisplayName="Completed" Hidden="TRUE" Name="Completed" Sealed="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="962da3d4-99e0-4dc2-a8b7-b638d696938c" 
+        solutionId="962da3d4-99e0-4dc2-a8b7-b638d696938c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="BackBone.TodoApp"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="e8039614-e0cc-44ce-985e-e513f1106c69" />
+  </features>
+</package>

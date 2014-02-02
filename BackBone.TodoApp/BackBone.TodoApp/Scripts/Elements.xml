@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.7.1.min.js" Url="Scripts/jquery-1.7.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.7.1.js" Url="Scripts/jquery-1.7.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.7.1.intellisense.js" Url="Scripts/jquery-1.7.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\backbone-min.js" Url="Scripts/backbone-min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\backbone.js" Url="Scripts/backbone.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\underscore.js" Url="Scripts/underscore.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Models\todo.js" Url="Scripts/Models/todo.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Collections\todos.js" Url="Scripts/Collections/todos.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Views\app.js" Url="Scripts/Views/app.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Views\todos.js" Url="Scripts/Views/todos.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Routers\router.js" Url="Scripts/Routers/router.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
