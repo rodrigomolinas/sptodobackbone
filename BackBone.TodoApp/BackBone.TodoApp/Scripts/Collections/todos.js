@@ -5,7 +5,7 @@ var app = app || {};
 var TodoList = Backbone.Collection.extend({
     model: app.Todo,
     url: function () {
-        return "http://server/site/_api/lists/getbytitle('Todos')/items";
+        return web.get_url() + "/_api/lists/getbytitle('Todos')/items";
     },
 
     completed: function () {
@@ -28,6 +28,10 @@ var TodoList = Backbone.Collection.extend({
 
     comparator: function (todo) {
         return todo.get('order');
+    },
+
+    parse: function (response, options) {
+        return response.d.results;
     }
 });
 

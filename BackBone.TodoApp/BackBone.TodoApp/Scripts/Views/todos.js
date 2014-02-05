@@ -57,7 +57,7 @@ $(document).ready(function () {
             var value = this.$input.val().trim();
 
             if (value) {
-                this.model.save({ title: value });
+                this.model.save({ Title: value });
             }
 
             this.$el.removeClass('editing');

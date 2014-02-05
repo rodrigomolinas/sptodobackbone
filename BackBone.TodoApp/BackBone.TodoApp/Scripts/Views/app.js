@@ -26,7 +26,11 @@ $(document).ready(function () {
             this.listenTo(app.Todos, 'filter', this.filterAll);
             this.listenTo(app.Todos, 'all', this.render);
 
-            app.Todos.fetch();
+            app.Todos.fetch({
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader('Accept', 'application/json;odata=verbose');
+                }
+            });
         },
 
         render: function () {
@@ -75,7 +79,7 @@ $(document).ready(function () {
 
         newAttributes: function () {
             return {
-                title: this.$input.val().trim(),
+                Title: this.$input.val().trim(),
                 order: app.Todos.nextOrder(),
                 completed: false
             };

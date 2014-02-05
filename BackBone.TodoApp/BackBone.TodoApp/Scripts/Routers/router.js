@@ -3,7 +3,7 @@
 // Todo Router
 // ----------
 
-var Workspace = Backbone.Router.Extend({
+var Workspace = Backbone.Router.extend({
     routes: {
         '*filter': 'setFilter'
     },
