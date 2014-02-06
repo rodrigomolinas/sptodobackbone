@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{531ffd61-9d45-4219-8366-58311309fd28}"
+       Name="TodoCompleted"
+       DisplayName="Todo Completed"
+       Type="Boolean"
+       Required="FALSE"
+       Group="Todos site columns">
+  </Field>
+</Elements>

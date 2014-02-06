@@ -2,12 +2,10 @@
 <List xmlns:ows="Microsoft SharePoint" Title="Todos" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Todos" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
   <MetaData>
     <ContentTypes>
-      
-      
-    <ContentType ID="0x01000F74FF152F0E4524A4EBB3D23BAC8203" Name="Todo" Group="TODOs content types" Description="Content type for TODOs items" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{35363960-D998-4aad-B7E8-058DFE2C669E}" DisplayName="Completed" Hidden="TRUE" Name="Completed" Sealed="TRUE" /></FieldRefs></ContentType></ContentTypes>
+    <ContentType ID="0x01000F74FF152F0E4524A4EBB3D23BAC8203" Name="Todo" Group="TODOs content types" Description="Content type for TODOs items" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{531ffd61-9d45-4219-8366-58311309fd28}" DisplayName="Completed" Required="TRUE" Name="TodoCompleted" /></FieldRefs></ContentType></ContentTypes>
     <Fields>
       
-    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{35363960-D998-4aad-B7E8-058DFE2C669E}" Name="Completed" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Completed" Group="$Resources:core,Base_Columns;" Type="Boolean" DisplayName="Completed" Hidden="TRUE" Sealed="TRUE"><Default>FALSE</Default></Field></Fields>
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{531ffd61-9d45-4219-8366-58311309fd28}" Name="TodoCompleted" DisplayName="Completed" Type="Boolean" Required="FALSE" Group="Todos site columns"></Field></Fields>
     <Views>
       
       
@@ -35,7 +33,7 @@
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
           
-        <FieldRef Name="LinkTitle"></FieldRef></ViewFields>
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="TodoCompleted" /></ViewFields>
         <Query>
           <OrderBy>
             

@@ -41,6 +41,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="SiteColumns\Completed\Elements.xml" />
     <None Include="ContentTypes\Todo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{26b8ef3e-5d51-4dc8-b150-846c2b5c4581}</SharePointProjectItemId>
     </None>
@@ -61,6 +62,9 @@
     <Content Include="Lists\Todos\TodosInstance\Elements.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="SiteColumns\Completed\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d0dbbf08-603c-44c3-ab19-e3f20d5f6eb3}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\SharePointProjectItem.spdata">
